@@ -4,6 +4,7 @@ export const data =[
         name : "Tokyo",
        batch : "Bank of Spain",
        email : "tokyo@gmail.com",
+       category :"student",
        exeprience : 5,
     },
 
@@ -12,6 +13,7 @@ export const data =[
         name  : "Professor",
        batch : "Bank of Spain",
        email : "profo@gmail.com",
+       category :"Teacher",
        exeprience : 20,
     },
 
@@ -20,6 +22,7 @@ export const data =[
         name : "Berlin",
        batch : "Bank of Spain",
        email : "berlin@gmail.com",
+       category :"Teacher",
        exeprience :25,
     },
 
@@ -29,6 +32,7 @@ export const data =[
         name : "Denver",
        batch : "Bank of Spain",
        email : "denver@gmail.com",
+       category :"student",
        exeprience : 12,
     },
     
@@ -37,6 +41,7 @@ export const data =[
         name : "RIO",
        batch : "Bank of Spain",
        email : "denver@gmail.com",
+       category :"student",
        exeprience : 5,
     },
     
@@ -45,6 +50,7 @@ export const data =[
         name : "Palermo",
        batch : "Bank of Spain",
        email : "denver@gmail.com",
+       category :"Teacher",
        exeprience : 12,
     },
     
@@ -53,6 +59,7 @@ export const data =[
         name : "Manila",
        batch : "Bank of Spain",
        email : "denver@gmail.com",
+       category :"student",
        exeprience : 2,
     },
     
@@ -61,6 +68,7 @@ export const data =[
         name : "Nairobi",
        batch : "Bank of Spain",
        email : "denver@gmail.com",
+       category :"student",
        exeprience : 7,
     },
     {
@@ -68,6 +76,7 @@ export const data =[
         name : "Helenskiy",
        batch : "Bank of Spain",
        email : "hel@gmail.com",
+       category :"student",
        exeprience : 10,
     },
     {
@@ -75,6 +84,7 @@ export const data =[
         name : "Rakel moria",
        batch : "Bank of Spain",
        email : "moria@gmail.com",
+       category :"Teacher",
        exeprience : 1,
     }
 

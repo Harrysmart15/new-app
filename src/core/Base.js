@@ -21,6 +21,12 @@ export default function BaseApp({title , styles ,children}) {
             onClick={()=>history.push("/")}
             >Dashboard</button>
          </span>
+         <span>
+            <button 
+            className="nav-button"
+            onClick={()=>history.push("/add/Teacher/user")}
+            >AddTeacherUser</button>
+         </span>
        </div>
       <div className="title">{title}</div>
       </div>

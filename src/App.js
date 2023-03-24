@@ -9,6 +9,7 @@ import UserComponent from './components/UserComponent';
 import { UserDetails } from './components/UserDetails';
 import BaseApp from './core/Base';
 import { data } from './data/data';
+import AddTeacherUser from './components/TeacherUser';
 
 function App() {
   const [user,setUser] = useState(data)
@@ -23,6 +24,13 @@ function App() {
     </Route>
     <Route path="/add/user">
     <AddUser
+     user={user}
+     setUser={setUser}/>
+    
+    </Route>
+
+    <Route path="/add/Teacher/user">
+    <AddTeacherUser
      user={user}
      setUser={setUser}/>
     

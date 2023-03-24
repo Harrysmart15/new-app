@@ -16,6 +16,7 @@ export function UserDetails({user}){
                    <p>Batch : {person.batch}</p>
                    <p>Email : {person.email}</p>
                    <p>Exp : {person.exeprience}</p> 
+                   <p>category : {person.category}</p>
                 </div>
             </div>
 

@@ -2,17 +2,17 @@ import React, { useState } from "react";
 import { useHistory } from "react-router-dom";
 import BaseApp from "../core/Base";
 
-export default function AddUser({user, setUser}){
+export default function AddTeacherUser({user, setUser}){
   const history =useHistory()
 
    const[name,setName]=useState("");
    const[id, setId]=useState("");
    const[email, setEmail] = useState("");
    const[exeprience, setExeprience]=useState("");
-   const[batch, setBatch] = useState("");
    const[category, setcategory]=useState("")
+   const[batch, setBatch] = useState("");
 
-   const addNewUser =()=>{
+   const addNewTeacherUser =()=>{
     const newUser = {
         id,
         name,
@@ -21,6 +21,7 @@ export default function AddUser({user, setUser}){
         category,
         exeprience
     }
+    
     
     setUser([...user,newUser]);
     history.push("/")
@@ -32,22 +33,22 @@ export default function AddUser({user, setUser}){
     setBatch("");
     setEmail("");
     setExeprience("");
+    setcategory("")
     setId("");
-    setcategory("");
 
    }
 
 
     return(
     <BaseApp
-    title={"Add A New User"}
+    title={"Add a Teacher Details"}
     >
 
 <div>
            
            <input placeholder="id"
            value={id}
-           onChange={(event)=>setId(event.target.value)}
+           onChange={(event)=>setId (event.target.value)}
            />
 
 
@@ -77,7 +78,6 @@ export default function AddUser({user, setUser}){
 
 
 
-
            <input placeholder="batch"
            value={batch}
            onChange={(event)=>setBatch(event.target.value)}
@@ -86,7 +86,8 @@ export default function AddUser({user, setUser}){
 
 
            <button
-           onClick={addNewUser}>Add</button>
+           onClick={addNewTeacherUser}
+           >Add</button>
         
        
        

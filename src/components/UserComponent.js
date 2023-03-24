@@ -4,6 +4,7 @@ import { useHistory } from "react-router-dom";
 import BaseApp from "../core/Base";
 
 import AddUser from "./AddUser";
+import AddTeacherUser from "./TeacherUser";
 
 export default function UserComponent({user, setUser}) {
  const history =useHistory();
@@ -28,6 +29,7 @@ export default function UserComponent({user, setUser}) {
                 <p>Batch : {person.batch}</p>
                 <p>Email : {person.email}</p>
                 <p>Exp   : {person.exeprience}</p>
+                <p>category : {person.category}</p>
                
 
                 <div className="btn-group">
